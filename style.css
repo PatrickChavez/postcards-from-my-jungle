@@ -55,6 +55,12 @@ body {
   max-width: 80%;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+
+  /* Animation code from Ian Lunn */
+  /* https://ianlunn.github.io/Hover/ */
+  animation-name: hvr-buzz-out;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 #slideshow-text.active {
@@ -72,4 +78,39 @@ body {
   min-height: 100%;
   z-index: -5;
   filter: brightness(30%);
+}
+
+/* Animation code from Ian Lunn */
+/* https://ianlunn.github.io/Hover/ */
+@keyframes hvr-buzz-out {
+  10% {
+    transform: translateX(-50%) rotate(2deg);
+  }
+  20% {
+    transform: translateX(-50%) rotate(-2deg);
+  }
+  30% {
+    transform: translateX(-50%) rotate(2deg);
+  }
+  40% {
+    transform: translateX(-50%) rotate(-2deg);
+  }
+  50% {
+    transform: translateX(-50%) rotate(1deg);
+  }
+  60% {
+    transform: translateX(-50%) rotate(-1deg);
+  }
+  70% {
+    transform: translateX(-50%) rotate(1deg);
+  }
+  80% {
+    transform: translateX(-50%) rotate(-1deg);
+  }
+  90% {
+    transform: translateX(-50%) rotate(0);
+  }
+  100% {
+    transform: translateX(-50%) rotate(0);
+  }
 }
