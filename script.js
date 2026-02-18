@@ -43,6 +43,21 @@ document.addEventListener("DOMContentLoaded", () => {
     "images/animal_33.png",
     "images/animal_34.png",
     "images/animal_35.png",
+    "images/animal_36.png",
+    "images/animal_37.png",
+    "images/animal_38.png",
+    "images/animal_39.png",
+    "images/animal_40.png",
+    "images/animal_41.png",
+    "images/animal_42.png",
+    "images/animal_43.png",
+    "images/animal_44.png",
+    "images/animal_45.png",
+    "images/animal_46.png",
+    "images/animal_47.png",
+    "images/animal_48.png",
+    "images/animal_49.png",
+    "images/animal_50.png",
     // Add more image paths here
   ];
 
